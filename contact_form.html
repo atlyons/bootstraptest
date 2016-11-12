@@ -1,0 +1,163 @@
+
+ <?php
+  #  Paste this code below at the bottom of files that you want a footer on.
+ # Note copy and paste from the point to the end of the line:    <?php include_once("contact_form.html"); ?>
+
+
+
+<!-- The code below is displayed when a contact form is added to a page -->
+<div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+
+                    <p class="lead"></p>
+
+
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name"><!--Text above field--></label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname (required)" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname"><!--Text above field--></label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Lastname (required)" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email"><!--Text above field--></label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email (required) *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone"><!--Text above field--></label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone number (optional)">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message"><!--Text above field--></label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message (required)" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-lrg btn-send" value="Submit">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div><!-- /.8 -->
+
+
+
+
+
+<!-- The code below is used when a Contact Form is added within a Bootstrap modal-->
+
+<div class="modal" id="contactUs" tabindex="5" z-index= "2" role="dialog" aria-labelledby="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="contactUs">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        
+
+
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name"><!--Text above field--></label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname (required)" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname"><!--Text above field--></label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Lastname (required)" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email"><!--Text above field--></label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email (required) *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone"><!--Text above field--></label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone number (optional)">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message"><!--Text above field--></label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message (required)" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-lrg btn-send" value="Submit">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div><!-- /.8 -->
+
+            </div> <!-- /.row-->
+
+        </div> <!-- /.container-->
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    

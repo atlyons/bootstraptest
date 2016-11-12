@@ -1,0 +1,170 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ .navbar-brand{
+ 	color:#F05F40 !important;
+ }
+
+ .navbar-default{
+ 	border-color: transparent !important;
+ }
+
+
+header {
+    background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%), url("https://images.unsplash.com/photo-1473621038790-b778b4750efe?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2f0379bfb56c9c8bd62dce6a48cd7ba5");
+    background-attachment: fixed !important;
+}
+
+.modal_one{
+	z-index: 5;
+}
+
+.modal.in {
+   display:block;
+}
+
+
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.btn-outline {
+  color: inherit;
+  transition: all .8s;
+  background-color: transparent;
+  color: #fff;
+  border-color: white !important;
+}
+
+.btn-primary.btn-outline {
+  color: #fff;
+  background-color: transparent;
+  outline-color: #fff;
+  border-color: white !important;
+}
+
+.btn-primary.btn-outline:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn-outline.btn-lg {
+  background-color: transparent;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline-color: white !important;
+  border-radius: 0 !important;
+}
+
+/*--------------------- Black Outline Button -------------------------*/
+.btn-outline-black {
+  color: inherit;
+  transition: all .8s;
+  background-color: transparent;
+  color: black !important;
+  border-color: black !important;
+  font-size: 1hv;
+}
+
+.btn-primary-black.btn-outline-black {
+  color: #000;
+  background-color: transparent;
+  outline-color: #000;
+  border-color: black !important;
+}
+
+.btn-primary-black.btn-outline-black:hover {
+  color: #000 !important;
+  background-color: #fff;
+  border-color: #fff !important;
+}
+
+
+
+
+
+
+
+/*--------------------- White Outline Button -------------------------*/
+.white-outline-white {
+  color: inherit;
+  transition: all .8s;
+  background-color: transparent;
+  color: white !important;
+  border-color: white !important;
+  font-size: 1hv;
+}
+
+.white-primary-white.btn-outline-white {
+  color: #fff;
+  background-color: transparent;
+  outline-color: #fff;
+  border-color: white !important;
+}
+
+.btn-primary-white.btn-outline-white:hover {
+  color: #000 !important;
+  background-color: #fff;
+  border-color: #fff !important;
+}
+
+
+
+.navbar{
+  margin-top: 0px;
+  font-family: Roboto, sans-serif;
+
+}
+
+header{
+  background-attachment: fixed;
+}
+
+
+.section-heading {
+font-family: Roboto, sans-serif;
+}
+
+.service-box{
+font-family: Roboto, sans-serif;
+}
+
+
+
+
+.testBlock{
+  background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%), url("https://images.unsplash.com/photo-1471882108153-09c9b7452933?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c63961fa4ff91dc2a8a85235a29c968c");
+  background-size: 100%;
+  background-attachment: fixed !important;
+}
+
+
+.fa:hover {
+    color: #003A6B !important;
+}
+
