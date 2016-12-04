@@ -1,4 +1,4 @@
-<img src="https://source.unsplash.com/300x250/?lifestyle" alt="" class="img-responsive"  width="100%" height"100%" style="opacity: 0.75;">
+<img src="https://source.unsplash.com/1500x1500/?film" alt="" class="img-responsive"  width="400px" height"400px" style="opacity: 0.65;">
 
 <h1><center>Welcome to Argus.</center></h2>
 <h5>A mobile first website template constructed using PHP and Twitters popular Bootstrap framework.</h5>
