@@ -1,7 +1,7 @@
 <img src="https://source.unsplash.com/300x250/?lifestyle" alt="" class="img-responsive"  width="100%" height"100%" style="opacity: 0.75;">
 
-<h2 class="section-heading" style="font-family:raleway; font-size:4vh;">All the features you want</h2>
-<h5 style="font-size: 1.7vh; font-family:raleway;">Integer nec neque leo. Pellentesque nec ipsum ante. Vivamus viverra, libero.</h5>
+<h1><center>Welcome to Argus.</center></h2>
+<h5>A mobile first website template constructed using PHP and Twitters popular Bootstrap framework.</h5>
 
 # The largest heading
 ## The second largest heading
