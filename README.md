@@ -1,7 +1,23 @@
-<img src="https://source.unsplash.com/1500x1500/?film" alt="" class="img-responsive"  width="400px" height"400px" style="opacity: 0.65;">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<h1><center>Welcome to Argus.</center></h2>
-<h5>A mobile first website template constructed using PHP and Twitters popular Bootstrap framework.</h5>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<div class="img-responsive col-md-3 col-sm-3 col-xs-6">
+<img src="https://source.unsplash.com/1500x1500/?film" alt="" class="img-responsive"  width="400px" height"400px" style="opacity: 0.65;">
+</div>
+
+<div class="img-responsive col-md-3 col-sm-3 col-xs-6">
+<img src="https://source.unsplash.com/1500x1500/?style" alt="" class="img-responsive"  width="400px" height"400px" style="opacity: 0.65;">
+</div>
+
+<h1 class="text-center">Welcome to Argus.</h1>
+<h5 class="text-center">A mobile first website template constructed using PHP and Twitters popular Bootstrap framework.</h5>
 
 # The largest heading
 ## The second largest heading
