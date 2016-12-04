@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+body {overflow-x: hidden;}
+header {overflow-x: hidden;}
+
  .navbar-brand{
  	color:#F05F40 !important;
  }
@@ -12,9 +16,14 @@
  	border-color: transparent !important;
  }
 
+ .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus{
+  font-weight:200;
+  font-family:raleway;
+ }
+
 
 header {
-    background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%), url("https://images.unsplash.com/photo-1473621038790-b778b4750efe?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2f0379bfb56c9c8bd62dce6a48cd7ba5");
+    background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%), url("https://source.unsplash.com/2500x2250/?business");
     background-attachment: fixed !important;
 }
 
@@ -138,7 +147,6 @@ label {
 .navbar{
   margin-top: 0px;
   font-family: Roboto, sans-serif;
-
 }
 
 header{
@@ -164,7 +172,363 @@ font-family: Roboto, sans-serif;
 }
 
 
-.fa:hover {
-    color: #003A6B !important;
+.subscribeBlock{
+  background-image: linear-gradient(to bottom, rgba(1,100,175, 0.08) 0%, rgba(156,95,168, 0.08) 0%, rgba(160,79,111, 0.58) 0%), url(https://s-media-cache-ak0.pinimg.com/originals/7b/8a/98/7b8a983faf282cab258cbfe9f5c226bb.jpg);
+
+background-size: cover; 
+background-attachment: fixed; 
+background-position: 90% 41px;
 }
 
+.fa-icons{
+  color:#1ac6ff !important;
+  font-size:9vh;
+}
+.fa-icons:hover {
+    color: #A2E7FF !important;
+}
+
+
+
+
+
+/*------------------- This is the styling for the 'Portfolio Images' section -----------------*/
+/* Portfolio image opaque hover colors */
+.portfolioOne {
+    background: rgba(231, 76, 60,.80) !important;   
+}
+.portfolioTwo {
+    background: rgba(52, 73, 94,.85)  !important;   
+}
+
+
+.portfolioThree {
+    background: rgba(22, 160, 133,.80) !important;   
+}
+
+.portfolioFour {
+    background: rgba(52, 152, 219,.50)  !important;   
+}
+
+.portfolioFive {
+    background: rgba(211, 84, 0,.70)  !important;   
+}
+
+.portfolioSix {
+    background: rgba(155, 89, 182,.70)  !important;   
+}
+/*----------------------------------- END -----------------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------- This is the styling for the 'Contact Form' section -----------------*/
+/* placeholder font size */
+.form-control{
+  font-size:.7rem !important;
+}
+/*----------------------------------- END -----------------------------------*/
+
+
+
+
+
+/*------------------- This is the styling for the 'What Clients Say' section -----------------*/
+/* Non active client tabs */
+.nav-tabs>li>a{
+  color:#ccc;
+  font-family: raleway;
+  font-weight:100;
+  border: none !important;
+  background-color: transparent !important;
+
+}
+/* Active Client tab */
+.nav-tabs>li.active>a{
+  color:#1AC6FF !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+  border:none !important;
+  border-bottom: 1px solid !important;
+  border-color: #1AC6FF !important;
+}
+/* Hovering over non active client tabs */
+.nav-tabs>li>a:hover{
+  color: #1AC6FF;
+  font-weight: 500 !important;
+}
+/* Client Quote Transition */
+.fadeClients{
+  transition: opacity 1.50s linear;
+}
+/*----------------------------------- END -----------------------------------*/
+
+
+/*------------------- This is the styling for the 'Features Tab' section -----------------*/
+.btn-full-width {
+  *display: inline;
+  /*padding: 4px 10px 4px;*/
+  /**margin-left: .3em;*/
+  color: black;
+  background-color: transparent !important;
+  border-width: 1px !important;
+  border-color: #ccc !important;
+  border-radius:0px !important;
+}
+.btn-full-width.active{
+  color: white;
+  background-color: #1AC6FF !important;
+  font-weight: 500 !important;
+  box-shadow:none;
+  border-color: #1AC6FF !important;
+}
+
+.btn-full-width.active:hover{
+  color:white;
+}
+
+
+.btn-full-width:hover{
+  color: white;
+  background-color:#1AC6FF !important;
+  font-weight: 500 !important;
+  border-color: #1AC6FF !important;
+}
+/*----------------------------------- END -----------------------------------*/
+
+
+
+
+
+
+
+/*------------------- This is the styling for the 'Footer' section -----------------*/
+
+
+.footer1 {
+  background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+  padding-top: 40px;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-left: 0;/*  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: #003;*/
+}
+
+
+
+.title-widget {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'raleway', sans-serif;
+  margin-top: 35px;
+  margin-right: 0;
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.title-widget::before {
+    background-color: #1AC6FF;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 2px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 13px;
+    position: relative;
+    text-transform: none;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    width:95%;
+}
+
+.widget_nav_menu ul li a{
+    color:black;
+    font-family:raleway;
+}
+
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.footerp p {font-family: 'Gudea', sans-serif; }
+
+
+#social:hover {
+          -webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+      }
+      #social {
+        -webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+      }           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+      .social-fb:hover {
+        color: #3B5998;
+      }
+      .social-tw:hover {
+        color: #4099FF;
+      }
+      .social-gp:hover {
+        color: #d34836;
+      }
+      .social-em:hover {
+        color: #f39c12;
+      }
+      .nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+.footer-bottom {
+    background-color: #1AC6FF;
+    min-height: 30px;
+    width: 100%;
+    font-weight:100;
+    font-family:raleway;
+    font-size:12px;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.no-gutter [class*="-6"] {
+    padding-left:0;
+}
+
+.full-wdith {
+  [class*="col-"] {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+
+
+
+/* Forced Modal CSS*/
+.modal-content{
+  border-radius: 0px !important;
+background-size: cover;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    padding: 0px !important;
+    max-width: 100% !important;
+}
+
+.forcedModal{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+ .forcedModal{
+/*  width:900px !important;
+  height:100% !important;*/
+}
+
+.modalTest{
+  padding:0px !important;
+  border-bottom: 0px !important;
+}
+
+.close {
+  margin-top:8px !important;
+  color:black !important;
+  font-family:raleway;
+  font-weight:100 !important;
+}
+
+.modal-size {
+    max-width: 800px !important;
+    margin: 100px auto !important;
+}
+
+.modal-title {
+  padding-top:70px;
+  font-family:raleway;
+  font-weight:300;
+}
+
+.modal-text {
+  font-family:raleway;
+  font-weight:100;
+}

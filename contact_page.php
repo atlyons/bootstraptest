@@ -47,8 +47,11 @@
 
 
 <!-- This is the button for a Contact form within a Bootstrap modal -->
-    <button type="button" class="btn btn-primary btn-lg center-block" data-toggle="modal" data-target="#contactUs" $('#contactUs').modal('show')>Contact</button>
-
+        <div class="container-fluid text-center">
+            <div class="row-fluid">
+                <button type="button" class="text-center btn btn-primary btn-md" data-toggle="modal" data-target="#contactUs" $('#contactUs').modal('show')>Contact</button>
+</div>
+</div>
 <br>
 <!-- Contact us modal-->
 <div class="modal" id="contactUs" tabindex="5" z-index= "2" role="dialog" aria-labelledby="myModal">

@@ -1,3 +1,5 @@
+
+// This is the Javascript for the contact form
 $(function () {
 
     $('#contact-form').validator();

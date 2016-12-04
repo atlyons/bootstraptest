@@ -6,6 +6,8 @@
  * https://github.com/1000hz/bootstrap-validator
  */
 
+ // This is the Validator file for the contact_form  
+
 +function ($) {
   'use strict';
 

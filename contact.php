@@ -1,3 +1,5 @@
+<!-- Below is the PHP code for the Contact form -->
+
 <?php
 
 // configure

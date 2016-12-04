@@ -17,30 +17,37 @@ function popup() {
 </script>
 
 
-
+<!-- Below is the HTML for the forced modal -->
 <div id="Subscribe" class="modal fade" style=" -webkit-transition-delay: 0s;
     transition-delay: 0s;">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Subscribe our Newsletter</h4>
-            </div>
-            <div class="modal-body">
-                <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-                <form>
+    <div class="modal-dialog modal-size">
+        <div class="modal-content forcedModal">
+            <div class="modal-header modalTest">
+
+<div class="img-responsive col-md-6 col-sm-6 col-xs-12">
+    <img src="https://source.unsplash.com/2500x2500/?store" alt="" class="img-responsive no-gutter full-width" style="opacity: 0.65;" width="100%" height="100%">
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+                <button type="button" class="close modalClose pull-right" data-dismiss="modal" aria-hidden="true" style="color:black !important;font-weight:100;">×</button>
+                <h3 class="modal-title" style="margin-top:0vh;font-family:raleway;font-weight:300;">Subscribe Today</h3>
+                <h6 style="font-family:raleway;font-weight:100;">Join our mailing list to get the latest updates straight in your inbox.</h6>
+                <form style="margin-top:2vh;">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="text" class="form-control" style="border-radius:0px; font-weight:100;" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
+                        <input type="email" class="form-control" style="border-radius:0px; font-weight:100;" placeholder="Email Address">
                     </div>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <p class="text-center" style="font-family:raleway !important;font-weight:100 !important;color:black!important;font-size:10px; margin-bottom:3vh;"><a href="www.google.com">Terms of Service</a> | <a href="www.google.com">Privacy Policy</a></p>
+
+                    <button type="submit" class="pull-right btn btn-md btn-secondary" style="color:black; border-radius:0px; border-style: 1px; text-transform:none; margin-bottom:15px; font-size:13px; font-weight:100;">Subscribe</button>
                 </form>
+                </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 </body>
     
